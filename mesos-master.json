@@ -304,6 +304,7 @@
           "   ", { "Ref": "MarathonDockerImage" },
           "     --master zk://`zk-list-nodes`/", { "Ref": "ClusterId" },
           "     --zk zk://`zk-list-nodes`/", { "Ref": "ClusterId" }, "_marathon",
+          "     --event_subscriber http_callback"
           "     --hostname `ec2metadata --local-ipv4`'\n",
 
           { "Fn::If" : [
