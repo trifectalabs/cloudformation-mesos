@@ -141,7 +141,7 @@
     "MarathonDockerImage" : {
       "Description" : "The Marathon Docker image (format: 'registry:port/repository:version')",
       "Type" : "String",
-      "Default" : "mesosphere/marathon:v0.8.2-RC3"
+      "Default" : "mesosphere/marathon:latest"
     },
     "MarathonLoggerDockerImage" : {
       "Description" : "The marathon-logger Docker image (format: 'registry:port/repository:version')",
@@ -172,7 +172,7 @@
   "Mappings" : {
     "RegionMap" : {
       "us-east-1" : {
-        "AMI" : "ami-0a878262"
+        "AMI" : "ami-1c517276"
       },
       "us-west-1" : {
         "AMI" : "ami-494eac0d"
